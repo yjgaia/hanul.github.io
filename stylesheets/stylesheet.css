@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  word-break: break-all;
 }
 ol, ul {
   list-style: none;
@@ -50,7 +51,7 @@ table {
 /* Style */
 
 body {
-  font-size: 14px;
+  font-size: 13px;
   font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   background: #D1D1D1;
@@ -69,7 +70,7 @@ a:hover {
 
 h1.title {
   margin: 30px 20px 10px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
@@ -355,7 +356,7 @@ footer .owner p a {
 .markdown-body dl,
 .markdown-body table,
 .markdown-body blockquote {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .markdown-body h1,
@@ -368,24 +369,32 @@ footer .owner p a {
 }
 
 .markdown-body h1 {
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .markdown-body h2 {
-  font-size: 24px;
+  font-size: 20px;
   color: #557398;
 }
 
 .markdown-body h3 {
-  font-size: 20px;
-}
-
-.markdown-body h4 {
+  margin-top: 22px;
   font-size: 18px;
 }
 
-.markdown-body h5 {
+.markdown-body h4 {
+  margin-top: 10px;
   font-size: 16px;
+}
+
+.time {
+   color: #999;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
 }
 
 .markdown-body pre {
@@ -426,7 +435,7 @@ footer .owner p a {
 .markdown-body li p,
 .markdown-body dd,
 .markdown-body dd p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .markdown-body li pre,
@@ -478,7 +487,7 @@ footer .owner p a {
 }
 
 .markdown-body th {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   text-align: left;
   padding: 5px;
