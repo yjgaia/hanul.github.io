@@ -58,14 +58,14 @@ body {
 }
 
 a {
-  color: #d86112;
+  color: #63a52a;
   text-decoration: none;
   -webkit-transition: color ease-in-out 0.3s;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #ff9900;
+  color: #90D355;
 }
 
 h1.title {
@@ -388,7 +388,7 @@ footer .owner p a {
 }
 
 .time {
-   color: #999;
+	color: #999;
 	font-weight: normal;
 	font-size: 14px;
 }
